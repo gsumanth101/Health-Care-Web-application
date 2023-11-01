@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f3f707af;
+        }
+        .header{
+            text-align: center;
+            padding:10px;
+        }
+        .main{
+            text-align: center;
+        }
+
+        .developers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .developer {
+            width: 230px;
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .developer img {
+            max-width: 40%;
+            border-radius: 50%;
+        }
+
+        .btn-container {
+            margin-top: 20px;
+           text-align: center;
+        }
+
+        .btn-container a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background: linear-gradient(to bottom, #0077B5, #005885);
+            color: #fff;
+            transition: background 0.3s;
+        }
+
+        .btn-container a.gmail {
+            background: linear-gradient(to bottom, #D14836, #C53727);
+        }
+
+        .btn-container a:hover {
+            background: linear-gradient(to bottom, #005885, #004477);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>About US</h1>
+    </div>
+    <div class="main">
+        <h2>Our Team</h2>
+    </div>
+    <div class="developers">
+        <div class="developer">
+            <img src="{{ url_for('static', filename='developer-male.svg')}}" alt="sumanth">
+            <h2>Sumanth</h2>
+            <p>9921004235</p>
+            <div class="btn-container">
+                <a href="www.linkedin.com/in/gorla-buchayyagari-sumanth-486bb7221" target="_blank">LinkedIn</a>
+                <a class="gmail" href="mailto:9921004235@klu.ac.in">Gmail</a>
+            </div>
+        </div>
+
+        <div class="developer">
+            <img src="{{ url_for('static', filename='developer-male.svg')}}" alt="naveen">
+            <h2>Naveen</h2>
+            <p>9921004298</p>
+            <div class="btn-container">
+                <a href="https://www.linkedin.com/in/kalisetti-naveen-93701422b/" target="_blank">LinkedIn</a>
+                <a class="gmail" href="mailto:9921004298@klu.ac.in">Gmail</a>
+            </div>
+        </div>
+
+        <div class="developer">
+            <img src="{{ url_for('static', filename='developer-female.jpeg')}}" alt="Lakshmi">
+            <h2>Lakshmi</h2>
+            <p>9921004889</p>
+            <div class="btn-container">
+                <a href="https://www.linkedin.com/in/developer3" target="_blank">LinkedIn</a>
+                <a class="gmail" href="mailto:9921004889@klu.ac.in">Gmail</a>
+            </div>
+        </div>
+
+        <div class="developer">
+            <img src="{{ url_for('static', filename='developer-male.svg')}}" alt="Harshith Sai">
+            <h2>Harshith Sai</h2>
+            <p>9921004266</p>
+            <div class="btn-container">
+                <a href="https://www.linkedin.com/in/harshith-sai-bontha-464978267/" target="_blank">LinkedIn</a>
+                <a class="gmail" href="mailto:9921004266@klu.ac.in">Gmail</a>
+            </div>
+        </div>
+
+    </div><br>
+    <div class="btn-container" >
+        <a href="/home">Home</a>
+    </div>
+    <div class="footer">
+        <h3 style="text-align: center;">Made for DEEP LEARNING</h3>
+        <p style="text-align: center;">@2023</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Flask
+nltk
+numpy
+pandas
+tensorflow
+scikit-learn
+pickle
+PIL
