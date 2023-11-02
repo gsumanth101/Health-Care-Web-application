@@ -14,3 +14,21 @@
 8. Then the local host is running at port :5000.
 9. Click on the link.
 10. The web application will open.
+    <br>
+    ![main page](https://github.com/gsumanth101/Health-Care-Web-application/assets/105142891/1b1d16f9-cdb2-4d0c-803b-9c89c1b61f71)
+
+    Main Page
+
+    ![skin](https://github.com/gsumanth101/Health-Care-Web-application/assets/105142891/edac2cb2-833b-43f8-b528-46e49e76c459)
+
+    Skin cancer page
+
+    ![DR](https://github.com/gsumanth101/Health-Care-Web-application/assets/105142891/e9d00567-ad97-44c0-845a-480a3408a534)
+
+    Diabetic Retinopathy Page
+#Developers
+Gorla Buchayyagari Sumanth -- https://www.linkedin.com/in/gorla-buchayyagari-sumanth-486bb7221/
+Kalisetti Naveen  -- https://www.linkedin.com/in/kalisetti-naveen-93701422b/
+
+
+
