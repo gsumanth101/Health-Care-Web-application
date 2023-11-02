@@ -26,8 +26,9 @@
     ![DR](https://github.com/gsumanth101/Health-Care-Web-application/assets/105142891/e9d00567-ad97-44c0-845a-480a3408a534)
 
     Diabetic Retinopathy Page
-#Developers
-Gorla Buchayyagari Sumanth -- https://www.linkedin.com/in/gorla-buchayyagari-sumanth-486bb7221/
+
+# Developers
+Gorla Buchayyagari Sumanth -- https://www.linkedin.com/in/gorla-buchayyagari-sumanth-486bb7221/  </br>
 Kalisetti Naveen  -- https://www.linkedin.com/in/kalisetti-naveen-93701422b/
 
 
